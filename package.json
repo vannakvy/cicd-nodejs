@@ -1,0 +1,28 @@
+{
+  "name": "cicd-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev":"node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vannakvy/cicd-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vannakvy/cicd-nodejs/issues"
+  },
+  "homepage": "https://github.com/vannakvy/cicd-nodejs#readme",
+  "devDependencies": {
+    "mocha": "^9.2.1",
+    "should": "^13.2.3",
+    "supertest": "^6.2.2"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
